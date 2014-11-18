@@ -1,6 +1,5 @@
 install:
 	./scripts/initialise.py
-	vagrant plugin install --plugin-source https://rubygems.org/ --plugin-prerelease vagrant-vbguest
 	vagrant up
 
 rebuild:
